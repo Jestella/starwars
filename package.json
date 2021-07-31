@@ -1,6 +1,6 @@
 {
   "name": "starwars",
-  "homepage": "https://jestella.github.io/",
+  "homepage": "https://jestella.github.io/starwars",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
