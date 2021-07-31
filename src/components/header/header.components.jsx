@@ -4,18 +4,23 @@ import "./header.styles.scss";
 
 const Header = () => (
   <div className="header">
-    <Link to="/">
-      <div className="nav_home">Home</div>
-    </Link>
-    <Link to="/films">
-      <div className="nav_films">Films</div>
-    </Link>
-    <Link to="/people">
-      <div className="nav_people">PEOPLE</div>
-    </Link>
-    <Link to="planets">
-      <div className="nav_planets">PLANETS</div>
-    </Link>
+    <h1 className="header_title">
+      STAR WARS <span>for</span> non STAR WARS fans!
+    </h1>
+    <div className="header_container">
+      <Link to="/">
+        <div className="nav">Home</div>
+      </Link>
+      <Link to="/films">
+        <div className="nav">Films</div>
+      </Link>
+      <Link to="/people">
+        <div className="nav">Characters</div>
+      </Link>
+      <Link to="planets">
+        <div className="nav">Planets</div>
+      </Link>
+    </div>
   </div>
 );
 

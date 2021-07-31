@@ -46,6 +46,7 @@ function App() {
     <div className="app">
       <Router>
         <Header />
+
         {loading ? (
           <Dimmer active inverted>
             <Loader inverted>Loading</Loader>

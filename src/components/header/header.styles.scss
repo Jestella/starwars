@@ -1,0 +1,21 @@
+.header {
+  text-align: center;
+}
+
+.header_container {
+  display: flex;
+  justify-content: center;
+}
+
+.header_title {
+  font-size: 36px;
+  font-weight: 700;
+
+  span {
+    font-size: 22px;
+  }
+}
+
+.nav {
+  margin: 5px 10px;
+}
