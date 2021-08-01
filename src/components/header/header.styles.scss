@@ -1,10 +1,12 @@
 .header {
-  text-align: center;
+  width: 500px;
+  height: 400px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 0.5fr;
 }
 
 .header_container {
-  display: flex;
-  justify-content: center;
+  border: 1px solid black;
 }
 
 .header_title {
@@ -18,4 +20,13 @@
 
 .nav {
   margin: 5px 10px;
+}
+
+.darth_vader {
+  width: 40px;
+}
+
+audio {
+  width: 100px;
+  height: 20px;
 }

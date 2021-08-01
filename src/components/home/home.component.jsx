@@ -25,7 +25,7 @@ class Home extends React.Component {
           <p>or your boyfriend? or girlfriend?</p>
           <p>Do you just want to pretend you know about STAR WARS?</p>
           <strong>I got you!</strong>
-          <p>Here is some quick source of STAR WARS for you!</p>
+          <p>Here is some information about STAR WARS for you!</p>
           <p>
             Now you can join their conversation with a superficial knowledge you
             earn from here!

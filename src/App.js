@@ -9,11 +9,13 @@ import Home from "../src/components/home/home.component";
 import Films from "./components/films/films.components";
 import People from "../src/components/people/people.components";
 import Planets from "../src/components/planets/planets.components";
+import Species from "./components/species/species.components";
 
 function App() {
   const [films, setFilms] = useState([]);
   const [people, setPeople] = useState([]);
   const [planets, setPlanets] = useState([]);
+  const [species, setSpecies] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -31,6 +33,13 @@ function App() {
       setLoading(false);
     }
 
+    async function fetchSpecies() {
+      let res = await fetch("https://swapi.dev/api/species/");
+      let data = await res.json();
+      setSpecies(data.results);
+      setLoading(false);
+    }
+
     async function fetchPlanets() {
       let res = await fetch("https://swapi.dev/api/planets/");
       let data = await res.json();
@@ -40,13 +49,13 @@ function App() {
 
     fetchFilms();
     fetchPeople();
+    fetchSpecies();
     fetchPlanets();
   }, []);
   return (
     <div className="app">
       <Router>
         <Header />
-
         {loading ? (
           <Dimmer active inverted>
             <Loader inverted>Loading</Loader>
@@ -61,6 +70,9 @@ function App() {
             </Route>
             <Route exact path="/people">
               <People data={people} />
+            </Route>
+            <Route exact path="/species">
+              <Species data={species} />
             </Route>
             <Route exact path="/planets">
               <Planets data={planets} />
