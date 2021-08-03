@@ -6,10 +6,10 @@ import "./App.css";
 
 import Nav from "../src/components/nav/nav.component";
 import Home from "../src/components/home/home.component";
-import Films from "./components/films/films.component";
-import People from "../src/components/people/people.component";
-import Planets from "../src/components/planets/planets.component";
-import Species from "./components/species/species.component";
+import Films from "./pages//films/films.component";
+import People from "../src/pages/people/people.component";
+import Planets from "../src/pages//planets/planets.component";
+import Species from "./pages//species/species.component";
 
 function App() {
   const [films, setFilms] = useState([]);

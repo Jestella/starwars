@@ -3,6 +3,7 @@ import "./home.styles.scss";
 
 import Nav from "../nav/nav.component";
 import Main from "../main/main.component";
+import Footer from "../footer/footer.component";
 
 class Home extends React.Component {
   constructor() {
@@ -14,6 +15,7 @@ class Home extends React.Component {
       <div className="home">
         <Nav />
         <Main />
+        <Footer />
       </div>
     );
   }
