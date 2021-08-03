@@ -1,4 +1,4 @@
-# 🎬 STAR WARS cheat page
+# 🎬 STAR WARS cheat sheet
 
 built with SWAPI API
 
