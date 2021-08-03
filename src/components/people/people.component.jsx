@@ -1,18 +1,18 @@
 import React from "react";
 import "./people.styles.scss";
 
-import SectionTitle from "../section-title/section-title.components";
+import SectionTitle from "../section-title/section-title.component";
 import List from "../list/list.component";
 
 const People = ({ data }) => (
   <div className="people">
-    <SectionTitle>people page</SectionTitle>
+    <SectionTitle>PEOPLE</SectionTitle>
 
     {data.map((people, i) => {
       return (
         <div className="people_container">
           <List>
-            <h2>name: {people.name}</h2>
+            <h2>{people.name}</h2>
             <p>genter: {people.gender}</p>
             <p>height: {people.height}</p>
             <p>mass: {people.mass}</p>

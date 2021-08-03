@@ -1,7 +1,22 @@
+.list {
+  background-image: url("https://www.transparenttextures.com/patterns/snow.png");
+}
+
 .list_items {
   grid-gap: 10px;
-  background-color: lightpink;
-  width: 90vw;
-  margin: 10px 10px 80px;
-  padding: 5px 30px;
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 10px 30px 80px;
+  padding: 40px;
+  font-weight: 300;
+
+  h2 {
+    color: red;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  p {
+    line-height: 26px;
+  }
 }

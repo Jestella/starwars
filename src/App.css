@@ -1,1 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  background-color: #000;
+}
+
+body ::selection {
+  color: #e89e10;
+  background: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+button:hover,
+span:hover,
+.title:hover {
+  transition: 0.2s ease-in-out;
+  color: #e89e10;
+}

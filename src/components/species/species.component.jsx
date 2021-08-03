@@ -1,17 +1,17 @@
 import React from "react";
 import "./species.styles.scss";
 
-import SectionTitle from "../section-title/section-title.components";
+import SectionTitle from "../section-title/section-title.component";
 import List from "../list/list.component";
 
 const Species = ({ data }) => (
   <div className="species">
-    <SectionTitle>species page</SectionTitle>
+    <SectionTitle>SPECIES</SectionTitle>
     {data.map((species, i) => {
       return (
         <div className="species_container">
           <List>
-            <h2>name: {species.name}</h2>
+            <h2>{species.name}</h2>
             <p>classification: {species.classification}</p>
             <p>designation: {species.designation}</p>
             <p>average height: {species.average_height}</p>

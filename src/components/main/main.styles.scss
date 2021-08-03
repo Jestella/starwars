@@ -1,0 +1,45 @@
+// top
+.main_top {
+  padding: 3% 3% 0;
+  color: #fff;
+  text-align: left;
+  top: 0px;
+  width: 75vw;
+  position: fixed;
+  z-index: 1;
+  font-size: 18px;
+
+  .title {
+    font-size: 32px;
+  }
+  p {
+    line-height: 26px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  strong {
+    color: #e89e10;
+  }
+}
+
+.STARWARS {
+  width: 70px;
+}
+
+audio {
+  margin-top: 20px;
+  width: 120px;
+  height: 20px;
+}
+
+.image_container {
+  display: flex;
+  justify-content: center;
+}
+
+.main_image {
+  margin: 130px 0 30px;
+  width: 100%;
+}

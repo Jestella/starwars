@@ -1,17 +1,17 @@
 import React from "react";
 import "./planets.styles.scss";
 
-import SectionTitle from "../section-title/section-title.components";
+import SectionTitle from "../section-title/section-title.component";
 import List from "../list/list.component";
 
 const Planets = ({ data }) => (
   <div className="planets">
-    <SectionTitle>Planets page</SectionTitle>
+    <SectionTitle>PLANET</SectionTitle>
     {data.map((planets, i) => {
       return (
         <div className="planets_container">
           <List>
-            <h2>name: {planets.name}</h2>
+            <h2>{planets.name}</h2>
             <p>rotation period: {planets.rotation_period}</p>
             <p>climate: {planets.climate}</p>
             <p>gravity: {planets.gravity}</p>

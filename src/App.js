@@ -4,12 +4,12 @@ import { Dimmer, Loader } from "semantic-ui-react";
 
 import "./App.css";
 
-import Header from "../src/components/header/header.components";
+import Nav from "../src/components/nav/nav.component";
 import Home from "../src/components/home/home.component";
-import Films from "./components/films/films.components";
-import People from "../src/components/people/people.components";
-import Planets from "../src/components/planets/planets.components";
-import Species from "./components/species/species.components";
+import Films from "./components/films/films.component";
+import People from "../src/components/people/people.component";
+import Planets from "../src/components/planets/planets.component";
+import Species from "./components/species/species.component";
 
 function App() {
   const [films, setFilms] = useState([]);
@@ -55,7 +55,7 @@ function App() {
   return (
     <div className="app">
       <Router>
-        <Header />
+        <Nav />
         {loading ? (
           <Dimmer active inverted>
             <Loader inverted>Loading</Loader>
