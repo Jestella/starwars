@@ -62,7 +62,7 @@ function App() {
           </Dimmer>
         ) : (
           <Switch>
-            <Route exact path="/starwars">
+            <Route exact path="/">
               <Home />
             </Route>
             <Route exact path="/films">
