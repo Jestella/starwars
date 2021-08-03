@@ -65,16 +65,16 @@ function App() {
             <Route exact path="/starwars">
               <Home />
             </Route>
-            <Route exact path="/starwars/films">
+            <Route exact path="/films">
               <Films data={films} />
             </Route>
-            <Route exact path="/starwars/people">
+            <Route exact path="/people">
               <People data={people} />
             </Route>
-            <Route exact path="/starwars/species">
+            <Route exact path="/species">
               <Species data={species} />
             </Route>
-            <Route exact path="/starwars/planets">
+            <Route exact path="/planets">
               <Planets data={planets} />
             </Route>
           </Switch>
