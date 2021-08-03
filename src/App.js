@@ -62,19 +62,19 @@ function App() {
           </Dimmer>
         ) : (
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/starwars">
               <Home />
             </Route>
-            <Route exact path="/films">
+            <Route exact path="/starwars/films">
               <Films data={films} />
             </Route>
-            <Route exact path="/people">
+            <Route exact path="/starwars/people">
               <People data={people} />
             </Route>
-            <Route exact path="/species">
+            <Route exact path="/starwars/species">
               <Species data={species} />
             </Route>
-            <Route exact path="/planets">
+            <Route exact path="/starwars/planets">
               <Planets data={planets} />
             </Route>
           </Switch>
