@@ -20,7 +20,7 @@ class Main extends React.Component {
           <p>
             You don't really know about STAR WARS, but your boss or coworkers or
             boyfriend? or girlfriend does? <br />
-            Maybe you just want to sound like a STAR WARS fan?{" "}
+            Maybe you just want to sound like a STAR WARS fan?
             <strong>I GOT YOUR BACK!</strong> Here is some information about
             STAR WARS for you. Now you can join their conversation with a
             superficial knowledge you earn from here!

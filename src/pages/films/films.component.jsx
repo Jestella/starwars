@@ -26,12 +26,9 @@ const Films = ({ data }) => (
               {films.producer}
             </p>
             <p>
-              <strong>Release Data:</strong> {films.release_data}
+              <strong>Release Date:</strong> {films.release_date}
             </p>
             {/* <p>characters: {films.characters}</p> */}
-            <p>
-              <strong>Created:</strong> {films.created}
-            </p>
           </List>
         </div>
       );
